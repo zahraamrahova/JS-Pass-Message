@@ -1,0 +1,33 @@
+:root {
+    --lightAqua: #00B2B2;
+    --mainwhite: #f5f5f5;
+    --mainBlack: #333333;
+  }
+  .max-height {
+    min-height: 100vh;
+  }
+  body {
+    background: var(--lightAqua);
+  }
+  .message-container {
+    background: var(--mainwhite);
+  }
+  .message-content {
+    color: var(--lightAqua);
+  }
+  #submitBtn {
+    background: var(--lightAqua);
+    color: var(--mainwhite);
+  }
+  #submitBtn:hover {
+    color: var(--lightAqua);
+    color: var(--mainBlack);
+  }
+  
+  .feedback {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
